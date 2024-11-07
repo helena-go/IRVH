@@ -56,3 +56,24 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h2 style='text-align: center; font-style: italic; font-size: 18px; '>Eurostars hotel company</h2>", unsafe_allow_html=True)
+
+
+#IMAGENES:
+
+#Imagen zona superior izquierda
+import streamlit as st
+
+# Insertar la imagen en la parte superior izquierda usando HTML
+st.markdown("""
+    <style>
+        .top-left-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;  /* Puedes ajustar el tamaño de la imagen */
+            height: auto;
+        }
+    </style>
+
+    <img src="https://logos-world.net/wp-content/uploads/2020/12/USC-Logo.png" class="top-left-image">
+""", unsafe_allow_html=True)
