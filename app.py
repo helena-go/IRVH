@@ -9,12 +9,22 @@ st.set_page_config(
 
 
 
+# Cambiar el fondo de la página a negro
+st.markdown("""
+    <style>
+        body {
+            background-color: black !important;
+            color: white; /* Cambiar el color del texto a blanco */
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 #COLOR DE TEXTO
 
 st.markdown(
     """
     <div style="text-align: center;">
-        <h1 style="color: #2E86C1;">Análisis de Rentabilidad Hotelera 🏨</h1>
+        <h1 style="color: White;">Análisis de Rentabilidad Hotelera 🏨</h1>
         <p style="font-size:18px; color: #34495E;">Explora la rentabilidad de ubicaciones para la expansión hotelera con visualizaciones interactivas</p>
     </div>
     """,
@@ -22,17 +32,3 @@ st.markdown(
 )
 
 
-with st.form("My form"):
-    first = st.text_input("First name")
-    last = st.text_input("Last name")
-    if st.form_submit_button("Submit"):
-        st.write(first+" "+last)
-
-css="""
-<style>
-    [data-testid="stForm"] {
-        background: Black;
-    }
-</style>
-"""
-st.write(css, unsafe_allow_html=True)
