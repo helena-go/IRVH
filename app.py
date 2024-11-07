@@ -73,12 +73,19 @@ st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
 st.image("https://www.masterturismo.it/wp-content/uploads/2017/09/logo-eurostars.png", width=80)
 
 #BARRA LATERAL IZQUIERDO MENÚ CON LAS OPCIONES.
-# Crear una barra lateral con opciones
+#Crear una barra lateral con opciones
 st.sidebar.title("Menú")
-# Descripción debajo del título
-st.sidebar.write("Selecciona una opción de las siguientes para explorar diferentes secciones de la aplicación para visualizar la información.")
+#Descripción barra lateral.
+st.sidebar.markdown(
+    """
+    <div style="text-align: center;">
+        Selecciona una opción de las siguientes para explorar diferentes secciones de la aplicación.
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
 
-# Crear opciones en la barra lateral
+#Crear opciones en la barra lateral
 st.sidebar.button("Opción 1")
 st.sidebar.button("Opción 2")
 st.sidebar.button("Opción 3")
