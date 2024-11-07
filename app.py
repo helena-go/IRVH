@@ -83,7 +83,7 @@ st.markdown("""
     <style>
         .top-left-image {
             position: absolute;
-            top: 3;
+            top: 50px;
             left: 0;
             width: 100px;  /* Puedes ajustar el tamaño de la imagen */
             height: auto;
