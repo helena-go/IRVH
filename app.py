@@ -75,10 +75,10 @@ st.image("https://www.masterturismo.it/wp-content/uploads/2017/09/logo-eurostars
 import streamlit as st
 
 # Título de la aplicación
-st.title("Mi Aplicación en Streamlit")
+st.title("_ARH_")
 
 # Crear una barra lateral con opciones
-st.sidebar.title("Opciones")
+st.sidebar.title("Menú")
 
 # Añadir elementos a la barra lateral
 opcion_seleccionada = st.sidebar.selectbox(
@@ -88,11 +88,7 @@ opcion_seleccionada = st.sidebar.selectbox(
 
 st.sidebar.write("Puedes usar esta barra para seleccionar opciones adicionales.")
 
-# Mostrando la opción seleccionada en el cuerpo de la aplicación
-st.write(f"Has seleccionado: {opcion_seleccionada}")
 
-# Agregar otras opciones en la barra lateral
-if st.sidebar.button("Botón de ejemplo"):
-    st.write("¡Haz hecho clic en el botón de la barra lateral!")
+
 
 
