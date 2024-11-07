@@ -19,9 +19,9 @@ st.markdown("""
             color: white !important;
         }
         
-        /* Cambiar color de los títulos */
+       /* Usar la fuente 'Playfair Display' para los títulos */
         h1, h2, h3, h4, h5, h6 {
-            font-family: 'Times New Roman', serif;
+            font-family: 'Playfair Display', serif;
             color: gold !important;
         }
 
@@ -42,7 +42,7 @@ st.markdown("""
             background-color: black !important;
             color: white !important;
             border: 1px solid gold !important;
-            font-family: 'Times New Roman', serif;
+            font-family: 'Playfair Display', serif;
         }
     </style>
 """, unsafe_allow_html=True)
