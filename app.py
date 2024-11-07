@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 
-import streamlit as st
+
 
 # Cambiar el fondo de la página y el color del texto sin usar un archivo CSS externo.
 #Más adelante miramos como meterlo en el css.
@@ -84,6 +84,9 @@ st.sidebar.markdown(
     """, 
     unsafe_allow_html=True
 )
+
+# Añadir un espacio en blanco para separar.
+st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
 
 #Crear opciones en la barra lateral
 st.sidebar.button("Opción 1")
