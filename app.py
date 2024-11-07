@@ -44,4 +44,5 @@ st.markdown("""
 
 # Ejemplo de contenido en la página
 st.title("Análisis de rentabilidad hotelera 🏨")
+st.markdown("<h1 style='text-align: center;'>Análisis de rentabilidad hotelera 🏨</h1>", unsafe_allow_html=True)
 st.write("_Eurostars Hotel Company_")
