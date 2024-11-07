@@ -81,6 +81,7 @@ st.sidebar.markdown(
     <div style="text-align: center;">
         Selecciona una opción de las siguientes para explorar diferentes secciones de la aplicación.
     </div>
+    <br><br> <!-- Dos saltos de línea en blanco -->
     """, 
     unsafe_allow_html=True
 )
