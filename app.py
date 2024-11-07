@@ -22,18 +22,13 @@ st.markdown("""
        /* Usar la fuente 'Playfair Display' para los títulos */
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Playfair Display', serif;
-            color: gold !important;
+            color: black !important;
         }
 
-        /* Cambiar el fondo de la barra lateral */
-        .sidebar .sidebar-content {
-            background-color: black !important;
-            color: white !important;
-        }
 
         /* Cambiar el color de los botones */
         button {
-            background-color: gold !important;
+            background-color: black !important;
             color: black !important;
         }
 
@@ -49,4 +44,4 @@ st.markdown("""
 
 # Ejemplo de contenido en la página
 st.title("Análisis de rentabilidad hotelera 🏨")
-st.write("Eurostars Hotel Company")
+st.write("_Eurostars Hotel Company_")
