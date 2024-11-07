@@ -52,12 +52,4 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-    <style>
-        h2, {
-            text-align: center;  /* Centrar los títulos */
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-st.write("_Eurostars Hotel Company_")
+st.markdown("<h2 style='text-align: center;'>_Eurostars Hotel Company_</h2>", unsafe_allow_html=True)
