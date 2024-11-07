@@ -5,7 +5,7 @@ import streamlit as st
 st.markdown(
     """
     <style>
-    @import url('https://raw.githubusercontent.com/usuario/repositorio/main/styles.css');
+    @import url('https://github.com/helena-go/IRVH/blob/88633a84cc2fbb54c25797fc75bc238da64c940c/styles.css');
     </style>
     """, 
     unsafe_allow_html=True
