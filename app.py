@@ -8,27 +8,45 @@ st.set_page_config(
 )
 
 
+import streamlit as st
 
-# Cambiar el fondo de la página a negro
+# Cambiar el fondo de la página y el color del texto sin usar un archivo CSS externo
 st.markdown("""
     <style>
-        body {
+        /* Cambiar el fondo de la página a negro */
+        html, body {
             background-color: black !important;
-            color: white; /* Cambiar el color del texto a blanco */
+            color: white !important;
+        }
+        
+        /* Cambiar color de los títulos */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Times New Roman', serif;
+            color: gold !important;
+        }
+
+        /* Cambiar el fondo de la barra lateral */
+        .sidebar .sidebar-content {
+            background-color: black !important;
+            color: white !important;
+        }
+
+        /* Cambiar el color de los botones */
+        button {
+            background-color: gold !important;
+            color: black !important;
+        }
+
+        /* Cambiar el color de los inputs y text areas */
+        input, textarea {
+            background-color: black !important;
+            color: white !important;
+            border: 1px solid gold !important;
+            font-family: 'Times New Roman', serif;
         }
     </style>
 """, unsafe_allow_html=True)
 
-#COLOR DE TEXTO
-
-st.markdown(
-    """
-    <div style="text-align: center;">
-        <h1 style="color: White;">Análisis de Rentabilidad Hotelera 🏨</h1>
-        <p style="font-size:18px; color: #34495E;">Explora la rentabilidad de ubicaciones para la expansión hotelera con visualizaciones interactivas</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
+# Ejemplo de contenido en la página
+st.title("Análisis de rentabilidad hotelera 🏨")
+st.write("Eurostars Hotel Company")
