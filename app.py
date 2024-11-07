@@ -7,4 +7,4 @@ st.set_page_config(
 )
 
 # Título principal de la aplicación en la página
-st.title("🔍 Análisis de Rentabilidad Hotelera 🏨")
+st.title("Análisis de Rentabilidad Hotelera 🏨")
