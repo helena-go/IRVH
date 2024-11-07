@@ -28,7 +28,7 @@ st.markdown("""
 
         /* Cambiar el color de los botones */
         button {
-            background-color: black !important;
+            background-color: white !important;
             color: black !important;
         }
 
