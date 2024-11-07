@@ -13,9 +13,9 @@ st.markdown(
     <style>
     /* Fondo de la página */
     .main {
-        background-color: #f4f4f4; /* Fondo claro y elegante */
+        background-color: #f5f5dc; /* Beige claro */
         color: #333333; /* Color de fuente sobrio */
-        font-family: 'Arial', sans-serif; /* Tipografía parecida a la de Eurostars */
+        font-family: 'Arial', sans-serif; /* Tipografía sencilla y profesional */
     }
     /* Encabezado principal */
     h1 {
