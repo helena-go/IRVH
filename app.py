@@ -10,7 +10,8 @@ st.set_page_config(
 
 import streamlit as st
 
-# Cambiar el fondo de la página y el color del texto sin usar un archivo CSS externo
+# Cambiar el fondo de la página y el color del texto sin usar un archivo CSS externo.
+#Más adelante miramos como meterlo en el css.
 st.markdown("""
     <style>
         /* Cambiar el fondo de la página a negro */
@@ -42,6 +43,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+#TITULO Y SUBTÍTULO.
+
 # Ejemplo de contenido en la página
 st.title("Análisis de rentabilidad hotelera 🏨")
 st.markdown("""
@@ -52,4 +55,4 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h2 style='text-align: center;'>_Eurostars Hotel Company_</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; font-style: italic;'>Este es el subtítulo centrado y en cursiva</h2>", unsafe_allow_html=True)
