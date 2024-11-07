@@ -63,28 +63,12 @@ st.markdown("<h2 style='text-align: center; font-style: italic; font-size: 18px;
 #Imagen zona superior izquierda
 # Insertar la imagen en la parte superior izquierda usando HTML
 # Insertar dos imágenes, una más arriba que la otra en la parte superior izquierda usando HTML y CSS
-st.markdown("""
-    <style>
-        .image-container {
-            position: relative;
-            width: 100px; /* Ajusta el tamaño del contenedor según sea necesario */
-            height: 150px; /* Ajusta la altura según el espacio necesario */
-        }
-        .image-container img {
-            position: absolute;
-            left: 0;
-        }
-        .image-container img.first {
-            top: 0;  /* Esta imagen está en la parte superior */
-        }
-        .image-container img.second {
-            top: 50px;  /* Esta imagen se coloca 50px más abajo que la primera */
-        }
-    </style>
+# Primera imagen
+st.image("https://tse2.mm.bing.net/th?id=OIP.-wMbVBuxXB9Cf2AQZTrdkAHaEK&pid=Api", width=100)
 
-    <div class="image-container">
-        <img src="https://www.masterturismo.it/wp-content/uploads/2017/09/logo-eurostars.png">
-        <img src="https://logos-world.net/wp-content/uploads/2020/12/USC-Logo.png">
-    </div>
-""", unsafe_allow_html=True)
+# Añadir un espacio en blanco para separar las imágenes
+st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
+
+# Segunda imagen
+st.image("https://www.masterturismo.it/wp-content/uploads/2017/09/logo-eurostars.png", width=80)
 
