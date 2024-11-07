@@ -58,3 +58,20 @@ st.markdown("<p style='text-align: center; color: #5a5a5a;'>Explora la rentabili
 
 # Ejemplo de contenido con estilos de caja y texto centrado
 st.markdown("<div class='stMarkdown'>Aquí se muestra la información sobre las ubicaciones con rentabilidad alta, media y baja, basada en la puntuación de clientes y otros factores.</div>", unsafe_allow_html=True)
+
+
+st.markdown(
+    """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+    .main {
+        font-family: 'Merriweather', serif;
+    }
+    h1 {
+        font-family: 'Merriweather', serif;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
