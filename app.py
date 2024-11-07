@@ -55,4 +55,4 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h2 style='text-align: center; font-style: italic;'>Este es el subtítulo centrado y en cursiva</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; font-style: italic; font-size: 18px; '>Eurostars hotel company</h2>", unsafe_allow_html=True)
