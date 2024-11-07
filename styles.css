@@ -1,0 +1,38 @@
+/* Cambiar el fondo de la página a negro */
+body {
+    background-color: black !important;
+    color: white; /* Cambiar el texto a blanco */
+}
+
+/* Estilo para los títulos (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', serif;
+    color: gold;
+}
+
+/* Modificar las barras laterales de Streamlit */
+.sidebar .sidebar-content {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Modificar los botones */
+button {
+    background-color: gold !important;
+    color: black !important;
+    border: none;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Cambiar el color de los cuadros de texto */
+input, textarea {
+    background-color: black;
+    color: white;
+    border: 1px solid gold;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Cambiar el color de los enlaces */
+a {
+    color: gold;
+}
