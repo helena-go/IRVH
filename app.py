@@ -74,7 +74,7 @@ st.image("https://www.masterturismo.it/wp-content/uploads/2017/09/logo-eurostars
 
 #BARRA LATERAL IZQUIERDO MENÚ CON LAS OPCIONES.
 #Crear una barra lateral con opciones
-st.sidebar.title("Menú")
+st.sidebar.title("_Opciones_")
 #Descripción barra lateral.
 st.sidebar.markdown(
     """
