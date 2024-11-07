@@ -61,34 +61,30 @@ st.markdown("<h2 style='text-align: center; font-style: italic; font-size: 18px;
 #IMAGENES:
 
 #Imagen zona superior izquierda
-import streamlit as st
-
 # Insertar la imagen en la parte superior izquierda usando HTML
-#logo usc
+# Insertar dos imágenes, una más arriba que la otra en la parte superior izquierda usando HTML y CSS
 st.markdown("""
     <style>
-        .top-left-image {
+        .image-container {
+            position: relative;
+            width: 100px; /* Ajusta el tamaño del contenedor según sea necesario */
+            height: 150px; /* Ajusta la altura según el espacio necesario */
+        }
+        .image-container img {
             position: absolute;
-            top: 0;
             left: 0;
-            width: 100px;  /* Puedes ajustar el tamaño de la imagen */
-            height: auto;
+        }
+        .image-container img.first {
+            top: 0;  /* Esta imagen está en la parte superior */
+        }
+        .image-container img.second {
+            top: 50px;  /* Esta imagen se coloca 50px más abajo que la primera */
         }
     </style>
 
-    <img src="https://logos-world.net/wp-content/uploads/2020/12/USC-Logo.png" class="top-left-image">
+    <div class="image-container">
+        <img src="https://www.masterturismo.it/wp-content/uploads/2017/09/logo-eurostars.png">
+        <img src="https://logos-world.net/wp-content/uploads/2020/12/USC-Logo.png">
+    </div>
 """, unsafe_allow_html=True)
-#Logo eurostars
-st.markdown("""
-    <style>
-        .top-left-image {
-            position: absolute;
-            top: 50px;
-            left: 0;
-            width: 100px;  /* Puedes ajustar el tamaño de la imagen */
-            height: auto;
-        }
-    </style>
 
-    <img src="https://www.masterturismo.it/wp-content/uploads/2017/09/logo-eurostars.png" class="top-left-image">
-""", unsafe_allow_html=True)
