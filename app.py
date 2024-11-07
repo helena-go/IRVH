@@ -7,8 +7,7 @@ st.set_page_config(
     layout="wide"  # Configuración de ancho de página, puede ser "centered" o "wide"
 )
 
-# Título principal de la aplicación en la página
-st.title("Análisis de Rentabilidad Hotelera 🏨")
+
 
 #COLOR DE TEXTO
 
@@ -21,3 +20,19 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+
+with st.form("My form"):
+    first = st.text_input("First name")
+    last = st.text_input("Last name")
+    if st.form_submit_button("Submit"):
+        st.write(first+" "+last)
+
+css="""
+<style>
+    [data-testid="stForm"] {
+        background: Black;
+    }
+</style>
+"""
+st.write(css, unsafe_allow_html=True)
