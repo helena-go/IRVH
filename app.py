@@ -72,6 +72,9 @@ st.image("https://www.ecured.cu/images/thumb/e/e5/Logo_usc.svg/320px-Logo_usc.sv
 st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
 
 # Segunda imagen
+# Crear un espacio vacío donde la imagen aparecerá después del retardo
+placeholder = st.empty()
+
 # Retardo antes de mostrar la imagen (simula una animación de aparición)
 time.sleep(2)
 
