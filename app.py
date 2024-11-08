@@ -68,8 +68,7 @@ st.markdown("<h2 style='text-align: center; font-style: italic; font-size: 18px;
 # Primera imagen
 st.image("https://www.ecured.cu/images/thumb/e/e5/Logo_usc.svg/320px-Logo_usc.svg.png", width=50)
 
-# Añadir un espacio en blanco para separar las imágenes
-st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
+
 
 # Segunda imagen
 # Crear un espacio vacío donde la imagen aparecerá después del retardo
@@ -79,7 +78,7 @@ placeholder = st.empty()
 time.sleep(2)
 
 # Mostrar la imagen después del retardo
-st.image("https://www.viajeselcorteingles.es/imagenes/hoteles/espana/santiagodecompostela/74hpy7g7/3_x.jpg0", caption="Santiago de Compostela", use_column_width=True)
+st.image("http://www.santiagoturismo.com/files/full/2017/07/GHSantiago026.jpg", caption="Santiago de Compostela", use_column_width=True)
 
 #BARRA LATERAL IZQUIERDO MENÚ CON LAS OPCIONES.
 #Crear una barra lateral con opciones
