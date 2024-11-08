@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 
 st.set_page_config(
@@ -71,7 +72,11 @@ st.image("https://www.ecured.cu/images/thumb/e/e5/Logo_usc.svg/320px-Logo_usc.sv
 st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
 
 # Segunda imagen
+# Retardo antes de mostrar la imagen (simula una animación de aparición)
+time.sleep(2)
 
+# Mostrar la imagen después del retardo
+st.image("https://www.viajeselcorteingles.es/imagenes/hoteles/espana/santiagodecompostela/74hpy7g7/3_x.jpg0", caption="Santiago de Compostela", use_column_width=True)
 
 #BARRA LATERAL IZQUIERDO MENÚ CON LAS OPCIONES.
 #Crear una barra lateral con opciones
