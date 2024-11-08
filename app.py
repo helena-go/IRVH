@@ -49,7 +49,7 @@ st.markdown("""
 st.markdown(
     """
     <h1 style="text-align: center; font-size: 2.5em; font-weight: bold;">
-        ৎ୭ Análisis de rentabilidad en la expansión hotelera ৎ୭
+        ৎ୭ Análisis de rentabilidad ৎ୭
     </h1>
     """,
     unsafe_allow_html=True
