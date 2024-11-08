@@ -65,7 +65,7 @@ st.markdown("<h2 style='text-align: center; font-style: italic; font-size: 18px;
 # Insertar la imagen en la parte superior izquierda usando HTML
 # Insertar dos imágenes, una más arriba que la otra en la parte superior izquierda usando HTML y CSS
 # Primera imagen
-st.image("https://tse2.mm.bing.net/th?id=OIP.-wMbVBuxXB9Cf2AQZTrdkAHaEK&pid=Api", width=100)
+st.image("https://www.ecured.cu/images/thumb/e/e5/Logo_usc.svg/320px-Logo_usc.svg.png", width=100)
 
 # Añadir un espacio en blanco para separar las imágenes
 st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
