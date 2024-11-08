@@ -78,7 +78,7 @@ placeholder = st.empty()
 time.sleep(2)
 
 # Mostrar la imagen después del retardo
-st.image("http://www.santiagoturismo.com/files/full/2017/07/GHSantiago026.jpg", caption="Santiago de Compostela", use_column_width=True)
+st.image("http://www.santiagoturismo.com/files/full/2017/07/GHSantiago026.jpg", caption="Santiago de Compostela", width=400)
 
 #BARRA LATERAL IZQUIERDO MENÚ CON LAS OPCIONES.
 #Crear una barra lateral con opciones
