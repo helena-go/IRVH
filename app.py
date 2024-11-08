@@ -65,13 +65,13 @@ st.markdown("<h2 style='text-align: center; font-style: italic; font-size: 18px;
 # Insertar la imagen en la parte superior izquierda usando HTML
 # Insertar dos imágenes, una más arriba que la otra en la parte superior izquierda usando HTML y CSS
 # Primera imagen
-st.image("https://www.ecured.cu/images/thumb/e/e5/Logo_usc.svg/320px-Logo_usc.svg.png", width=100)
+st.image("https://www.ecured.cu/images/thumb/e/e5/Logo_usc.svg/320px-Logo_usc.svg.png", width=50)
 
 # Añadir un espacio en blanco para separar las imágenes
 st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
 
 # Segunda imagen
-st.image("https://www.masterturismo.it/wp-content/uploads/2017/09/logo-eurostars.png", width=80)
+
 
 #BARRA LATERAL IZQUIERDO MENÚ CON LAS OPCIONES.
 #Crear una barra lateral con opciones
