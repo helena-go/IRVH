@@ -86,6 +86,7 @@ col1.image("http://www.santiagoturismo.com/files/full/2017/07/GHSantiago026.jpg"
 #Texto a la derecha de la imagen descirbiendo el proyecto.
 col2.markdown("""
     <div style="text-align: center;">
+    
     _Este proyecto, bajo el título Expansión hotelera basada en datos, presenta como
     principal objetivo desarrollar una buena solución para que el equipo de expansión
     de una cadena hotelera sea capaz de identificar nuevas oportunidades para realizar
