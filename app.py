@@ -46,7 +46,7 @@ st.markdown("""
 #TITULO Y SUBTÍTULO.
 
 # Ejemplo de contenido en la página
-st.title("ৎ୭Análisis de rentabilidad de expansiónৎ୭")
+st.title("ৎ୭Análisis de rentabilidad de expansión hoteleraৎ୭")
 st.markdown("""
     <style>
         h1 {
