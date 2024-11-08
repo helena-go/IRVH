@@ -45,16 +45,17 @@ st.markdown("""
 
 #TITULO Y SUBTÍTULO.
 
-# Ejemplo de contenido en la página
-st.title("ৎ୭Análisis de rentabilidad de expansión hoteleraৎ୭")
-st.markdown("""
-    <style>
-        h1 {
-            text-align: center;  /* Centrar los títulos */
-        }
-    </style>
-""", unsafe_allow_html=True)
+# Centrar el título usando HTML y CSS
+st.markdown(
+    """
+    <h1 style="text-align: center; font-size: 2.5em; font-weight: bold;">
+        ৎ୭ Análisis de rentabilidad de expansión hotelera ৎ୭
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
 
+#Subtitulo
 st.markdown("<h2 style='text-align: center; font-style: italic; font-size: 18px; '>Eurostars hotel company</h2>", unsafe_allow_html=True)
 
 
