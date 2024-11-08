@@ -71,14 +71,18 @@ st.image("https://www.ecured.cu/images/thumb/e/e5/Logo_usc.svg/320px-Logo_usc.sv
 
 
 # Segunda imagen
+col1, col2 = st.columns([2, 3])  # El número define el ancho relativo de las columnas (2 es más estrecho que 3)
 # Crear un espacio vacío donde la imagen aparecerá después del retardo
 placeholder = st.empty()
 
 # Retardo antes de mostrar la imagen (simula una animación de aparición)
 time.sleep(2)
 
-# Mostrar la imagen después del retardo
-st.image("http://www.santiagoturismo.com/files/full/2017/07/GHSantiago026.jpg", caption="Santiago de Compostela", width=400)
+
+# En la primera columna (col1) se coloca la imagen
+col1.image("http://www.santiagoturismo.com/files/full/2017/07/GHSantiago026.jpg", caption="Santiago de Compostela", width=400)
+
+# En la segunda columna (col2) se coloca el texto
 #Texto a la derecha de la imagen descirbiendo el proyecto.
 col2.markdown("""
     **Texto a la derecha de la imagen**:
