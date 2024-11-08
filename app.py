@@ -2,7 +2,7 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="Análisis de Rentabilidad Hotelera",  # Título en la pestaña
+    page_title="Análisis de rentabilidad de expansión hotelera",  # Título en la pestaña
     page_icon="🏨",  # Ícono en la pestaña, puedes usar emojis o enlaces de imágenes
     layout="wide"  # Configuración de ancho de página, puede ser "centered" o "wide"
 )
@@ -46,7 +46,7 @@ st.markdown("""
 #TITULO Y SUBTÍTULO.
 
 # Ejemplo de contenido en la página
-st.title("ৎ୭ Análisis de rentabilidad hotelera ৎ୭")
+st.title("ৎ୭Análisis de rentabilidad de expansiónৎ୭")
 st.markdown("""
     <style>
         h1 {
