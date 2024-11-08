@@ -71,7 +71,7 @@ st.image("https://www.ecured.cu/images/thumb/e/e5/Logo_usc.svg/320px-Logo_usc.sv
 
 
 # Segunda imagen
-col1, col2 = st.columns([2, 3])  # El número define el ancho relativo de las columnas (2 es más estrecho que 3)
+col1, col2 = st.columns([3, 4])  # El número define el ancho relativo de las columnas (2 es más estrecho que 3)
 # Crear un espacio vacío donde la imagen aparecerá después del retardo
 placeholder = st.empty()
 
