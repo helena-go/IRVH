@@ -85,12 +85,17 @@ col1.image("http://www.santiagoturismo.com/files/full/2017/07/GHSantiago026.jpg"
 # En la segunda columna (col2) se coloca el texto
 #Texto a la derecha de la imagen descirbiendo el proyecto.
 col2.markdown("""
+    <div style="text-align: center;">
     **Texto a la derecha de la imagen**:
     
-    Aquí va el texto que se muestra a la derecha de la imagen. Puedes colocar la descripción que necesites y darle formato.
-    
-    También puedes añadir más texto, listas, o cualquier contenido que quieras mostrar junto con la imagen.
-""")
+    _Este proyecto, bajo el título Expansión hotelera basada en datos, presenta como
+    principal objetivo desarrollar una buena solución para que el equipo de expansión
+    de una cadena hotelera sea capaz de identificar nuevas oportunidades para realizar
+    una ampliación de la cadena y tomar decisiones de manera precisa._
+    </div>
+
+""", 
+    unsafe_allow_html=True)
 
 #BARRA LATERAL IZQUIERDO MENÚ CON LAS OPCIONES.
 #Crear una barra lateral con opciones
