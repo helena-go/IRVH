@@ -79,6 +79,14 @@ time.sleep(2)
 
 # Mostrar la imagen después del retardo
 st.image("http://www.santiagoturismo.com/files/full/2017/07/GHSantiago026.jpg", caption="Santiago de Compostela", width=400)
+#Texto a la derecha de la imagen descirbiendo el proyecto.
+col2.markdown("""
+    **Texto a la derecha de la imagen**:
+    
+    Aquí va el texto que se muestra a la derecha de la imagen. Puedes colocar la descripción que necesites y darle formato.
+    
+    También puedes añadir más texto, listas, o cualquier contenido que quieras mostrar junto con la imagen.
+""")
 
 #BARRA LATERAL IZQUIERDO MENÚ CON LAS OPCIONES.
 #Crear una barra lateral con opciones
