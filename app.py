@@ -91,6 +91,13 @@ col2.markdown("""
     principal objetivo desarrollar una buena solución para que el equipo de expansión
     de una cadena hotelera sea capaz de identificar nuevas oportunidades para realizar
     una ampliación de la cadena y tomar decisiones de manera precisa._
+
+    _Debido al enorme crecimiento del sector hotelero, en las grandes compañías
+    hoteleras surge la necesidad de realizar una expansión en diferentes ubicaciones
+    las cuales deben ser previamente analizadas para asegurar el éxito de la cadena.
+    Para poder llevar a cabo esta expansión y que esta sea exitosa, deben de tomarse
+    decisiones informadas y fundamentadas para poder asegurar así un crecimiento
+    sustentable de la cadena hotelera._
     </div>
 
 """, 
