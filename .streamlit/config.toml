@@ -1,3 +1,4 @@
+
 # Archivo config.toml para Streamlit
 
 [global]
@@ -7,8 +8,8 @@ pageTitle = "Análisis de rentabilidad de expansión hotelera"  # Título de la 
 headless = true  # Esto asegura que no se abra el navegador de manera predeterminada
 
 [theme]
-base="dark"  # Establece el tema oscuro como predeterminado
+base="white"  # Establece el tema oscuro como predeterminado
 primaryColor="#F63366"  # Color principal
-backgroundColor="#0E1117"  # Fondo oscuro de la aplicación
+backgroundColor="#eeeeee"  # Fondo oscuro de la aplicación
 secondaryBackgroundColor="#262730"  # Fondo del panel secundario
 textColor="#FAFAFA"  # Color del texto blanco
