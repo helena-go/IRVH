@@ -1,1 +1,7 @@
+[theme]
+base = "dark"  # Elige entre "light" o "dark"
+primaryColor = "#F63366"  # Color principal de la app
+backgroundColor = "#0E1117"  # Fondo de la aplicación
+secondaryBackgroundColor = "#262730"  # Fondo de los paneles secundarios
+textColor = "#FAFAFA"  # Color del texto
 
