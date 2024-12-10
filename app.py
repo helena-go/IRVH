@@ -121,7 +121,7 @@ st.sidebar.markdown(
 st.markdown("<br>", unsafe_allow_html=True)  # Esto agrega un salto de línea
 
 #Crear opciones en la barra lateral
-st.sidebar.button("Opción 1")
+st.sidebar.button("Predecir IR")
 st.sidebar.button("Opción 2")
 st.sidebar.button("Opción 3")
 
