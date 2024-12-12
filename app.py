@@ -126,7 +126,10 @@ st.sidebar.button("Opción 2")
 st.sidebar.button("Opción 3")
 
 
-
+# Predecir IR
+if opcion == "Predecir IR":
+    st.title("Predicción de Índice de Rentabilidad Hotelera")
+    exec(open("predecir_ir.py").read())  # Ejecuta el código del archivo predecir_ir.py
 
 
 
